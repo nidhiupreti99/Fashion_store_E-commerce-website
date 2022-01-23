@@ -39,10 +39,10 @@
 
 <tr class="info">
 <td colspan="3">
-<center><a href="<c:url vlaue="/productDisplay"/>"class="btn btn-success">Continue your shopping</a></center>
+<center><a href ="<c:url value ="/productDisplay"/>"class="btn btn-success">Continue your shopping</a></center>
 </td>
 <td colspan="3">
-<center><a href="<c:url vlaue="/checkout"/>"class="btn btn-success">Check Out</a></center>
+<center><a href ="<c:url value="/checkout"/>"class="btn btn-success">Check Out</a></center>
 </td>
 </tr>
 </table>

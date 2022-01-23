@@ -1,0 +1,168 @@
+JvmtiExport can_access_local_variables 0
+JvmtiExport can_hotswap_or_post_breakpoint 0
+JvmtiExport can_post_on_exceptions 0
+# 479 ciObject found
+ciInstanceKlass java/io/FilePermission 1 1 403 7 1 10 7 12 1 1 1 9 12 1 1 9 12 1 9 12 1 1 9 12 1 1 9 12 1 1 9 12 1 9 12 1 9 12 1 9 12 1 11 7 12 1 1 1 9 12 1 11 12 1 1 11 12 1 1 11 12 1 100 1 8 1 10 9 7 12 1 1 10 12 1 1 100 1 8 1 10 8 1 10 7 12 1 1 1 9 12 1 8 1 10 12 1 1 100 1 10 12 1 10 12 1 1 10 12 1 1 10 12 1 1 8 1 10 12 1 9 12 1 1 7 1 10 10 12 1 10 7 12 1 1 11 12 1 9 12 1 11 11 12 1 100 1 8 1 8 1 100 1 10 12 1 10 100 12 1 1 1 10 12 1 1 9 12 1 1 10 12 1 1 10 12 1 1 10 12 1 1 10 12 1 1 10 12 1 10 12 1 1 10 12 1 1 11 12 1 10 100 12 1 1 11 12 1 9 12 1 11 12 1 10 100 12 1 1 1 100 1 10 100 12 1 1 1 10 100 12 1 1 10 12 1 1 100 1 8 1 8 1 8 1 8 1 8 1 10 12 1 1 8 1 100 1 8 1 10 12 1 10 12 1 1 10 10 12 1 1 7 1 10 10 12 10 100 12 1 1 10 100 12 1 1 10 12 1 10 7 12 1 1 1 8 1 10 7 12 1 1 1 8 1 7 1 10 10 7 12 1 1 1 100 1 1 1 3 1 3 1 3 1 3 1 3 1 3 1 3 1 3 1 3 1 1 5 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 1 1 1 1 1 1 1 1 1 100 1 1 1 1 100 1 1 1 1 1 1 1 1 1
+staticfield java/io/FilePermission builtInFS Ljava/nio/file/FileSystem; sun/nio/fs/WindowsFileSystem
+staticfield java/io/FilePermission here Ljava/nio/file/Path; sun/nio/fs/WindowsPath
+staticfield java/io/FilePermission EMPTY_PATH Ljava/nio/file/Path; sun/nio/fs/WindowsPath
+staticfield java/io/FilePermission DASH_PATH Ljava/nio/file/Path; sun/nio/fs/WindowsPath
+staticfield java/io/FilePermission DOTDOT_PATH Ljava/nio/file/Path; sun/nio/fs/WindowsPath
+ciInstanceKlass java/util/LinkedList 1 1 330 10 7 12 1 1 1 9 7 12 1 1 1 10 10 12 1 1 9 12 1 1 7 1 10 12 1 9 12 1 9 12 1 9 12 1 9 12 1 9 12 1 1 100 1 10 10 12 1 1 10 12 1 10 12 1 1 10 12 1 10 12 1 1 10 12 1 10 7 12 1 1 1 10 12 1 10 12 1 1 11 7 12 1 1 1 10 12 1 1 10 12 1 10 12 1 1 100 1 10 8 1 10 12 1 1 10 12 1 8 1 10 12 1 1 10 12 1 1 100 1 10 12 1 1 10 12 1 10 12 1 10 12 1 1 10 12 1 10 12 1 10 12 1 10 12 1 10 12 1 7 1 10 12 1 100 1 10 12 1 10 12 1 100 1 100 1 10 12 1 10 12 1 1 10 12 1 1 10 100 12 1 1 10 100 12 1 1 1 100 1 10 100 12 1 1 10 12 1 10 12 1 10 100 12 1 1 10 12 1 1 10 12 1 100 1 10 12 1 100 1 100 1 100 1 100 1 1 1 1 1 1 5 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 1 1 1 100 1 1 1 1 1 1 1 1 1 1 1 1 1
+instanceKlass jdk/internal/loader/URLClassPath$JarLoader$2
+instanceKlass jdk/internal/loader/URLClassPath$FileLoader$1
+ciInstanceKlass jdk/internal/loader/Resource 1 1 115 10 7 12 1 1 1 9 7 12 1 1 1 10 12 1 1 10 12 1 10 7 12 1 1 1 10 12 1 1 100 1 100 1 3 10 7 12 1 1 1 10 7 12 1 1 1 10 7 12 1 1 1 100 1 8 1 10 12 1 10 12 1 100 1 10 12 1 1 10 12 1 7 1 11 12 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 100 1 1 1 1 1 1 1 1 1
+ciInstanceKlass jdk/internal/loader/URLClassPath$FileLoader$1 1 1 70 9 7 12 1 1 1 9 12 1 1 9 12 1 1 9 12 1 1 10 7 12 1 1 1 10 7 12 1 1 1 7 1 10 12 1 10 7 12 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 1 1 1 1 1 1 12 1 1 1 100 1 1 1
+instanceKlass java/net/UnknownHostException
+instanceKlass java/nio/file/FileSystemException
+instanceKlass org/springframework/core/NestedIOException
+instanceKlass java/io/ObjectStreamException
+instanceKlass java/util/zip/ZipException
+instanceKlass java/io/FileNotFoundException
+instanceKlass java/net/MalformedURLException
+instanceKlass java/io/UnsupportedEncodingException
+ciInstanceKlass java/io/IOException 1 1 34 10 7 12 1 1 1 10 12 1 10 12 1 10 12 1 100 1 1 1 1 5 0 1 1 1 1 1 1 1 1 1 1 1
+ciInstanceKlass java/lang/Void 1 1 31 10 100 12 1 1 1 8 1 10 7 12 1 1 1 9 7 12 1 1 1 1 1 1 1 1 1 1 1 1 1
+staticfield java/lang/Void TYPE Ljava/lang/Class; java/lang/Class
+ciInstanceKlass jdk/internal/loader/URLClassPath$JarLoader$2 1 1 98 9 7 12 1 1 1 9 12 1 1 9 12 1 1 9 12 1 1 10 7 12 1 1 1 9 7 12 1 1 9 12 1 1 10 7 12 1 1 1 10 7 12 1 1 1 10 7 12 1 1 1 11 7 12 1 1 1 10 12 1 1 10 12 1 1 10 12 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 1 1 1 1 1 1 12 1 1 1 7 1 1 1
+ciInstanceKlass sun/net/util/URLUtil 1 1 130 10 100 12 1 1 1 7 1 10 10 7 12 1 1 1 10 7 12 1 1 10 12 1 1 8 1 10 12 1 10 12 1 1 10 12 1 8 1 10 12 1 10 12 1 10 12 1 10 8 1 10 12 1 1 8 1 10 100 12 1 1 1 8 1 8 1 8 1 10 12 1 1 10 12 1 10 12 1 1 10 12 1 10 12 1 1 10 100 12 1 1 1 10 12 1 10 12 1 100 1 10 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 1 1 1
+ciInstanceKlass java/security/PrivilegedExceptionAction 1 0 17 100 1 100 1 1 1 1 100 1 1 1 1 1 1 1 1
+instanceKlass jdk/internal/loader/URLClassPath$JarLoader
+instanceKlass jdk/internal/loader/URLClassPath$FileLoader
+ciInstanceKlass jdk/internal/loader/URLClassPath$Loader 1 1 134 10 7 12 1 1 1 9 7 12 1 1 1 100 1 10 100 12 1 1 1 10 12 1 100 1 10 100 12 1 1 1 10 12 1 1 100 1 8 1 10 12 1 1 10 12 1 1 10 100 12 1 1 1 10 12 1 1 10 100 12 1 1 100 1 100 1 10 12 1 1 10 100 12 1 1 1 9 12 1 1 100 1 10 12 1 10 12 1 1 10 100 1 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 1 1 1 1 1 100 1 1 1 1 1 1 1 1 1
+ciInstanceKlass jdk/internal/loader/URLClassPath$FileLoader 1 1 127 10 7 12 1 1 1 10 7 12 1 1 1 9 7 12 1 1 1 10 7 12 1 1 1 10 7 12 1 1 1 10 12 1 10 12 1 1 9 7 12 1 1 1 10 12 1 1 10 7 12 1 1 1 10 12 1 8 1 10 12 1 10 12 1 1 10 12 1 1 10 7 12 1 1 8 1 10 12 1 1 10 12 1 10 12 1 10 12 1 1 7 1 10 12 1 100 1 1 1 1 1 1 1 1 1 1 1 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ciInstanceKlass jdk/internal/loader/URLClassPath$JarLoader 1 1 559 7 1 7 1 8 1 8 1 7 1 10 12 1 1 10 12 1 1 8 1 10 12 1 10 12 1 1 10 12 1 10 7 12 1 1 9 7 12 1 1 1 9 12 1 1 9 12 1 1 9 12 1 1 9 12 1 1 10 12 1 9 12 1 10 7 12 1 1 8 1 10 12 1 10 7 12 1 1 1 7 1 10 12 1 10 7 12 1 1 1 100 1 10 12 1 1 100 1 10 7 12 1 1 1 9 12 1 9 12 1 1 11 100 12 1 1 1 8 1 10 12 1 10 12 1 1 10 12 1 1 7 1 10 10 12 1 1 100 1 10 12 1 10 7 1 10 100 1 10 12 1 1 10 12 1 10 12 1 1 10 12 1 1 8 1 10 12 1 10 12 1 1 8 1 9 12 1 1 10 100 12 1 1 1 100 1 10 12 1 1 100 1 10 12 9 12 1 1 10 12 1 10 7 12 1 1 10 7 12 1 1 1 10 12 1 100 1 100 1 7 1 10 12 1 10 12 1 1 10 12 1 1 10 12 1 1 11 7 12 1 1 11 12 1 1 7 1 10 12 1 10 12 1 1 10 7 12 1 1 10 12 1 1 10 12 1 1 7 1 10 10 12 1 10 7 12 1 1 1 10 7 12 1 1 1 10 12 1 1 7 1 10 7 12 1 1 1 10 7 12 1 1 100 1 10 12 1 10 12 1 1 10 12 1 1 10 12 1 1 11 7 12 1 1 10 12 1 1 100 1 8 1 10 10 7 12 1 1 1 11 7 12 1 1 1 10 12 1 1 10 100 12 1 1 1 9 100 12 1 1 1 10 100 12 1 1 1 10 12 1 1 100 1 10 10 12 1 10 12 1 10 12 1 9 12 1 10 12 1 1 9 12 1 9 12 1 1 8 1 8 1 10 100 12 1 1 10 100 12 1 1 1 100 1 10 12 1 10 12 1 10 12 1 10 12 1 9 12 1 1 10 12 1 1 10 12 1 10 10 12 1 10 12 1 1 8 1 10 12 1 10 100 12 1 1 1 10 12 1 100 1 10 12 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 1 100 1 1 1
+staticfield jdk/internal/loader/URLClassPath$JarLoader zipAccess Ljdk/internal/access/JavaUtilZipFileAccess; java/util/zip/ZipFile$1
+instanceKlass java/util/jar/JarFile
+ciInstanceKlass java/util/zip/ZipFile 1 1 545 7 1 7 1 7 1 10 12 1 1 7 1 10 12 1 9 7 12 1 1 1 10 12 1 10 7 12 1 1 100 1 100 1 10 8 1 10 12 1 1 10 100 12 1 1 1 10 12 1 1 10 10 12 1 10 7 12 1 1 1 10 100 12 1 1 10 12 1 8 1 10 7 12 1 1 1 9 12 1 1 10 12 1 1 7 1 10 7 12 1 1 1 10 12 1 9 12 1 1 10 7 12 1 1 1 10 12 1 1 10 12 1 10 12 1 10 12 1 9 12 1 1 9 7 12 1 1 1 9 12 1 1 10 12 1 8 10 12 1 1 10 12 1 1 8 1 9 12 1 1 9 12 1 9 10 12 1 1 9 12 1 1 7 1 9 12 1 10 12 1 10 12 1 1 11 7 12 1 1 1 10 12 1 1 5 0 5 0 5 0 5 0 7 1 10 12 1 100 1 8 1 10 7 1 9 12 1 10 12 1 100 1 18 12 1 1 10 12 1 10 100 12 1 1 1 10 12 1 10 12 1 1 100 1 10 12 1 18 18 10 12 1 10 12 1 10 7 12 1 1 1 10 12 1 1 8 1 10 12 1 1 10 12 1 7 1 9 12 1 1 11 7 12 1 1 1 10 10 12 1 9 12 1 10 12 1 9 12 1 1 10 12 1 9 12 1 9 12 1 10 12 1 9 12 1 9 12 1 10 12 1 10 12 1 3 9 12 1 10 7 12 1 1 1 10 12 1 1 9 12 9 12 1 1 10 12 1 100 1 10 12 1 1 100 1 8 1 10 8 1 8 1 9 12 1 1 9 12 1 100 1 10 10 12 1 11 100 1 11 12 1 1 9 12 1 9 12 1 100 1 7 1 10 10 7 12 1 1 1 8 1 10 7 12 1 1 1 8 1 10 12 1 1 9 12 1 100 1 1 1 1 1 3 1 3 1 3 1 3 1 1 1 1 1 1 100 1 1 1 1 1 1 1 1 1 1 100 1 1 1 1 100 1 1 1 1 1 1 1 1 1 1 1 1 1 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 1 1 1 1 1 1 1 1 1 1 1 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 1 100 1 100 1 1 15 10 100 12 1 1 1 16 1 15 10 12 16 15 16 15 10 12 16 1 1 1 1 1 1 1 1 1 1 100 1 100 1 1
+ciInstanceKlass jdk/internal/access/JavaUtilZipFileAccess 1 0 31 100 1 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ciInstanceKlass java/util/zip/ZipFile$1 1 1 101 10 7 12 1 1 1 9 7 12 1 1 1 9 100 12 1 1 1 9 100 12 1 1 1 10 12 1 1 10 12 1 1 10 12 1 1 10 12 1 1 10 12 1 1 10 12 1 1 10 12 1 9 100 12 1 1 1 100 1 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ciInstanceKlass sun/net/www/protocol/jar/Handler 1 1 223 10 7 12 1 1 1 7 1 10 12 1 10 7 12 1 1 1 10 12 1 1 10 12 1 1 10 7 12 1 1 1 8 1 10 12 1 1 10 12 1 7 1 8 1 10 12 1 1 10 12 1 1 10 12 1 1 10 12 1 10 12 1 100 1 10 12 1 10 8 1 10 12 1 1 8 1 10 12 10 12 1 1 100 1 10 10 12 1 10 12 1 1 10 12 1 10 12 1 1 8 1 10 12 1 1 8 1 7 1 10 8 1 10 12 1 1 8 1 10 12 1 8 1 10 12 1 8 1 10 12 1 1 8 1 8 1 10 12 1 8 1 10 12 1 10 12 1 8 1 8 1 8 1 10 12 1 8 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ciInstanceKlass jdk/internal/loader/URLClassPath$JarLoader$1 1 1 145 9 7 12 1 1 1 10 7 12 1 1 1 9 7 12 1 1 1 9 100 12 1 1 1 100 1 10 8 1 10 12 1 1 9 7 12 1 1 1 10 12 1 10 12 1 1 10 100 12 1 1 1 10 100 12 1 1 10 12 1 1 9 12 1 1 10 7 12 1 1 1 9 12 1 1 10 12 1 1 7 1 10 12 1 10 7 12 1 1 1 9 12 1 1 10 7 12 1 1 1 10 12 1 1 100 1 10 12 1 1 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 1 100 1 1 100 1 1 1 1 1 1 12 1 1 1 1
+instanceKlass sun/net/www/protocol/jar/URLJarFile
+ciInstanceKlass java/util/jar/JarFile 1 1 753 7 1 7 1 9 12 1 1 9 12 1 100 1 10 12 1 1 7 1 10 12 1 10 12 1 10 12 1 9 12 1 1 10 7 12 1 1 1 9 12 1 10 7 12 1 1 1 9 12 1 9 12 1 1 10 12 1 1 10 12 1 1 9 12 1 10 12 1 1 9 12 9 12 1 10 12 1 1 100 1 10 12 1 1 9 12 1 1 10 7 12 1 1 1 7 1 10 12 1 1 10 12 1 1 9 12 1 9 12 1 1 11 7 12 1 1 1 100 1 10 7 12 1 1 1 10 12 1 9 12 1 1 9 12 1 1 8 1 10 100 12 1 1 7 1 10 12 1 10 10 12 1 10 12 1 1 10 12 1 10 7 12 1 1 100 1 10 12 1 1 10 12 1 10 12 1 1 10 12 1 1 10 11 12 1 1 11 12 1 1 11 12 1 18 12 1 1 11 100 12 1 1 1 18 12 1 1 11 12 1 1 11 12 1 1 18 18 10 12 7 1 10 12 1 8 1 10 7 12 1 1 1 10 12 1 10 12 1 1 10 12 1 1 100 1 10 12 1 8 1 11 12 1 1 7 1 10 12 10 12 1 1 10 12 1 8 1 10 12 10 12 1 1 10 12 1 11 12 1 1 10 12 1 11 12 1 1 11 100 12 1 1 1 11 100 12 1 1 11 12 1 10 12 1 1 100 1 8 1 10 100 1 10 12 1 8 1 10 12 1 9 12 1 1 10 12 1 1 10 12 1 1 100 1 8 1 10 100 12 1 1 10 12 1 8 1 10 12 1 8 1 10 7 12 1 1 1 5 0 100 1 8 1 10 3 10 12 1 1 10 12 1 1 100 1 8 1 8 1 10 10 12 1 10 12 1 100 1 10 12 1 1 10 12 1 10 12 1 1 10 9 12 1 1 9 12 1 10 7 12 1 1 9 12 1 9 12 1 9 12 1 9 12 1 10 12 1 1 9 12 1 9 12 1 9 12 1 7 1 10 7 1 10 12 1 10 12 1 1 9 7 12 1 1 1 10 12 1 1 10 7 12 1 1 100 1 10 12 9 12 1 1 9 12 1 1 10 7 12 1 1 9 12 1 10 10 12 1 10 12 1 10 12 1 1 10 100 12 1 1 1 10 12 1 1 10 100 12 1 1 10 12 1 1 100 1 10 12 1 10 12 1 1 11 100 12 1 1 10 12 1 1 10 12 100 1 10 9 12 1 10 12 1 1 10 12 1 10 12 1 1 10 12 1 1 100 1 10 10 7 1 10 10 7 12 1 1 1 10 12 1 1 8 1 10 7 12 1 1 1 10 7 12 1 1 10 12 1 8 1 8 1 10 12 1 10 12 1 8 1 10 12 1 1 8 1 1 1 1 1 3 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 1 1 1 1 1 1 1 1 1 100 1 1 1 1 1 1 1 1 1 1 100 1 1 1 1 1 1 1 1 1 1 1 15 10 100 12 1 1 1 16 15 10 12 16 16 15 10 12 1 16 15 16 16 1 1 1 1 1 1 1 100 1 100 1 1
+staticfield java/util/jar/JarFile BASE_VERSION Ljava/lang/Runtime$Version; java/lang/Runtime$Version
+staticfield java/util/jar/JarFile BASE_VERSION_FEATURE I 8
+staticfield java/util/jar/JarFile RUNTIME_VERSION Ljava/lang/Runtime$Version; java/lang/Runtime$Version
+staticfield java/util/jar/JarFile MULTI_RELEASE_ENABLED Z 1
+staticfield java/util/jar/JarFile MULTI_RELEASE_FORCED Z 0
+staticfield java/util/jar/JarFile isInitializing Ljava/lang/ThreadLocal; java/lang/ThreadLocal
+staticfield java/util/jar/JarFile JUZFA Ljdk/internal/access/JavaUtilZipFileAccess; java/util/zip/ZipFile$1
+staticfield java/util/jar/JarFile CLASSPATH_CHARS [B 12
+staticfield java/util/jar/JarFile CLASSPATH_LASTOCC [B 65
+staticfield java/util/jar/JarFile CLASSPATH_OPTOSFT [B 12
+staticfield java/util/jar/JarFile MULTIRELEASE_CHARS [B 19
+staticfield java/util/jar/JarFile MULTIRELEASE_LASTOCC [B 65
+staticfield java/util/jar/JarFile MULTIRELEASE_OPTOSFT [B 19
+ciInstanceKlass jdk/internal/util/jar/JarIndex 1 1 339 10 7 12 1 1 1 7 1 10 9 7 12 1 1 1 9 12 1 10 10 12 1 1 9 12 1 1 10 12 1 1 8 1 10 7 12 1 1 1 10 12 1 1 10 12 10 12 1 1 7 1 10 10 12 1 1 10 12 1 1 10 12 1 10 7 12 1 1 1 10 12 1 1 10 12 1 1 10 12 1 1 100 1 9 100 12 1 1 1 10 12 1 1 10 12 1 10 12 1 1 11 100 12 1 1 1 11 12 1 1 100 1 10 12 1 1 8 1 10 12 1 8 1 8 1 10 12 1 1 9 12 1 1 10 12 10 12 1 10 12 1 100 1 100 1 9 7 12 1 1 1 10 12 1 10 12 1 8 1 10 12 1 100 1 10 10 12 1 1 8 1 10 12 1 10 12 1 1 11 100 12 1 1 11 12 1 10 12 1 7 1 7 1 10 12 1 10 12 1 7 1 10 10 12 1 8 1 10 12 1 10 12 1 10 10 12 1 1 10 12 1 1 7 10 12 1 1 11 100 1 100 1 11 12 1 11 12 1 10 12 1 1 8 1 8 1 10 7 12 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 1 1 1 1 1 1 1 1 1 1 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 1 1
+staticfield jdk/internal/util/jar/JarIndex metaInfFilenames Z 0
+instanceKlass java/util/jar/JarEntry
+ciInstanceKlass java/util/zip/ZipEntry 1 1 327 100 1 7 1 10 7 12 1 1 1 5 0 9 7 12 1 1 1 9 12 1 9 12 1 9 12 1 9 12 1 1 9 12 1 1 9 12 1 9 12 1 8 1 10 7 12 1 1 1 10 7 12 1 1 1 3 100 1 8 1 10 12 1 9 12 1 8 1 9 12 1 1 9 12 1 9 12 1 9 12 1 1 9 12 1 10 12 1 1 5 0 5 0 10 12 1 1 10 100 12 1 1 9 100 12 1 1 1 10 100 12 1 1 1 10 12 1 1 10 12 1 10 12 1 10 12 1 10 12 1 10 12 1 10 12 1 5 0 10 12 1 3 10 100 12 1 1 1 10 100 12 1 1 1 10 12 1 1 10 12 1 10 10 12 1 1 5 0 5 0 5 0 5 0 5 0 5 0 10 12 1 8 1 10 12 1 1 10 12 1 8 1 8 1 8 1 8 1 8 1 10 12 1 1 8 1 10 12 1 1 10 12 1 1 5 0 10 12 1 1 10 7 12 1 1 1 10 12 1 10 12 1 8 1 10 12 1 1 10 12 1 1 10 12 1 10 12 1 1 10 100 100 1 100 1 10 12 1 100 1 100 1 1 1 3 1 3 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+instanceKlass sun/net/www/protocol/jar/URLJarFile$URLJarFileEntry
+instanceKlass java/util/jar/JarFile$JarFileEntry
+ciInstanceKlass java/util/jar/JarEntry 1 1 60 10 7 12 1 1 1 10 12 1 10 7 1 9 12 1 1 9 12 1 1 9 12 1 1 10 100 12 1 1 10 100 10 12 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 1 1 1 1 1 1 1 1 1
+ciInstanceKlass java/util/jar/JarFile$JarFileEntry 1 1 128 9 7 12 1 1 1 10 7 12 1 1 1 9 12 1 1 10 12 1 10 7 12 1 1 1 10 12 1 1 10 100 12 1 1 1 10 12 1 1 100 1 100 1 10 12 1 9 12 1 1 9 12 1 1 10 12 1 1 10 100 12 1 1 1 10 100 12 1 1 9 12 1 1 10 12 1 1 10 100 10 12 1 1 9 12 1 1 9 12 1 10 100 12 1 1 1 10 12 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ciInstanceKlass java/util/zip/ZipFile$ZipFileInflaterInputStream 1 1 154 10 7 12 1 1 1 10 7 12 1 1 1 9 12 1 1 10 7 12 1 1 9 12 1 1 10 7 12 1 1 1 7 1 10 12 1 10 7 12 1 1 1 9 12 1 1 9 12 1 10 12 1 1 9 7 12 1 1 1 9 12 1 1 11 7 12 1 1 1 11 7 12 1 1 100 1 8 1 10 12 1 9 12 1 1 9 12 1 1 10 7 12 1 1 1 9 12 1 1 9 12 1 1 10 7 12 1 1 1 7 1 10 12 1 1 10 12 1 100 1 5 0 3 1 1 1 1 1 1 1 1 1 100 1 100 1 1 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ciInstanceKlass java/util/jar/Attributes 1 1 307 10 7 12 1 1 1 10 7 12 1 1 7 1 10 9 12 1 1 10 12 1 11 7 12 1 1 1 10 7 12 1 1 1 10 7 1 11 12 1 1 10 11 12 1 11 12 1 1 11 12 1 10 100 12 1 1 100 1 10 11 12 1 1 11 100 12 1 1 1 11 100 12 1 1 1 11 12 1 1 100 1 11 12 1 11 12 1 11 12 1 11 12 1 1 11 12 1 11 12 1 11 12 1 1 11 12 1 11 12 1 10 12 1 100 1 10 10 10 12 1 10 12 1 1 10 12 1 1 8 1 10 12 1 10 10 100 12 1 1 1 10 12 1 1 9 12 1 1 10 10 12 1 9 12 1 9 7 12 1 1 1 10 12 1 1 10 100 12 1 1 1 10 12 1 1 10 12 1 1 10 7 12 1 1 1 100 1 10 8 1 10 12 1 1 8 1 10 12 1 8 1 10 7 12 1 1 1 10 12 1 1 10 12 1 8 1 10 12 1 1 8 1 10 100 12 1 1 1 8 1 8 1 10 12 1 100 1 8 1 8 1 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 1 1 1 1 1 1 1 1
+instanceKlass org/springframework/core/type/classreading/CachingMetadataReaderFactory$LocalResourceCache
+instanceKlass org/springframework/core/annotation/AnnotationAttributes
+ciInstanceKlass java/util/LinkedHashMap 1 1 289 9 7 12 1 1 1 9 12 1 9 7 12 1 1 9 12 1 10 7 12 1 1 1 10 12 1 1 10 12 1 1 9 12 1 1 9 12 1 1 9 12 1 10 12 1 1 100 1 10 10 12 1 1 10 12 1 10 12 1 1 9 12 1 1 9 12 1 10 100 12 1 1 1 10 12 1 10 12 1 10 12 10 12 1 1 10 100 12 1 1 1 10 12 1 1 10 12 1 1 9 7 1 10 12 1 9 12 1 1 7 1 10 12 1 9 12 1 1 7 1 10 9 12 1 7 1 10 100 1 10 11 7 12 1 1 1 100 1 10 11 100 12 1 1 1 100 1 1 1 1 5 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 1 1 1 1 1 1 1 1 100 1 1 1 1 1 100 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 1 100 1 100 1 100 1 1 1 1 1 100 1 1 1 1 1 1 1 1
+ciInstanceKlass java/util/jar/Manifest$FastInputStream 1 1 96 10 7 12 1 1 1 10 7 12 1 1 9 12 1 1 9 12 1 9 12 1 1 10 12 1 1 10 100 12 1 1 1 9 12 1 1 10 7 12 1 1 1 10 7 12 1 1 1 10 12 1 10 12 1 1 10 12 1 1 10 12 1 1 1 1 1 1 1 1 1 100 1 1 1 1 1 1 1 1 1 1 1 1 100 1 1 1 1 1 1 1 100 1 1 1
+ciInstanceKlass java/util/jar/Attributes$Name 1 1 229 9 7 12 1 1 1 11 7 12 1 1 1 10 12 1 1 10 7 12 1 1 10 12 1 1 9 12 1 1 10 7 12 1 1 1 9 12 1 1 8 10 7 12 1 1 1 10 12 1 1 100 1 10 10 12 1 1 10 12 1 1 11 12 1 1 10 7 12 1 1 1 8 1 9 12 1 1 8 1 9 12 1 8 1 9 12 1 8 1 9 12 1 8 1 9 12 1 8 1 9 12 1 8 1 9 12 1 8 1 9 12 1 8 1 9 12 1 8 1 9 12 1 8 1 9 12 1 8 1 9 12 1 8 1 9 12 1 8 1 9 12 1 8 1 9 12 1 8 1 9 12 1 8 1 9 12 1 8 1 9 12 1 7 1 10 12 1 10 12 1 1 8 1 8 1 8 1 8 1 8 1 8 1 8 1 8 1 11 12 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 100 1 1
+staticfield java/util/jar/Attributes$Name MANIFEST_VERSION Ljava/util/jar/Attributes$Name; java/util/jar/Attributes$Name
+staticfield java/util/jar/Attributes$Name SIGNATURE_VERSION Ljava/util/jar/Attributes$Name; java/util/jar/Attributes$Name
+staticfield java/util/jar/Attributes$Name CONTENT_TYPE Ljava/util/jar/Attributes$Name; java/util/jar/Attributes$Name
+staticfield java/util/jar/Attributes$Name CLASS_PATH Ljava/util/jar/Attributes$Name; java/util/jar/Attributes$Name
+staticfield java/util/jar/Attributes$Name MAIN_CLASS Ljava/util/jar/Attributes$Name; java/util/jar/Attributes$Name
+staticfield java/util/jar/Attributes$Name SEALED Ljava/util/jar/Attributes$Name; java/util/jar/Attributes$Name
+staticfield java/util/jar/Attributes$Name EXTENSION_LIST Ljava/util/jar/Attributes$Name; java/util/jar/Attributes$Name
+staticfield java/util/jar/Attributes$Name EXTENSION_NAME Ljava/util/jar/Attributes$Name; java/util/jar/Attributes$Name
+staticfield java/util/jar/Attributes$Name EXTENSION_INSTALLATION Ljava/util/jar/Attributes$Name; java/util/jar/Attributes$Name
+staticfield java/util/jar/Attributes$Name IMPLEMENTATION_TITLE Ljava/util/jar/Attributes$Name; java/util/jar/Attributes$Name
+staticfield java/util/jar/Attributes$Name IMPLEMENTATION_VERSION Ljava/util/jar/Attributes$Name; java/util/jar/Attributes$Name
+staticfield java/util/jar/Attributes$Name IMPLEMENTATION_VENDOR Ljava/util/jar/Attributes$Name; java/util/jar/Attributes$Name
+staticfield java/util/jar/Attributes$Name IMPLEMENTATION_VENDOR_ID Ljava/util/jar/Attributes$Name; java/util/jar/Attributes$Name
+staticfield java/util/jar/Attributes$Name IMPLEMENTATION_URL Ljava/util/jar/Attributes$Name; java/util/jar/Attributes$Name
+staticfield java/util/jar/Attributes$Name SPECIFICATION_TITLE Ljava/util/jar/Attributes$Name; java/util/jar/Attributes$Name
+staticfield java/util/jar/Attributes$Name SPECIFICATION_VERSION Ljava/util/jar/Attributes$Name; java/util/jar/Attributes$Name
+staticfield java/util/jar/Attributes$Name SPECIFICATION_VENDOR Ljava/util/jar/Attributes$Name; java/util/jar/Attributes$Name
+staticfield java/util/jar/Attributes$Name MULTI_RELEASE Ljava/util/jar/Attributes$Name; java/util/jar/Attributes$Name
+instanceKlass org/springframework/cglib/core/ClassNameReader
+instanceKlass org/springframework/cglib/core/DebuggingClassWriter$1
+instanceKlass org/springframework/asm/Handler
+instanceKlass org/springframework/cglib/core/EmitUtils$9
+instanceKlass org/springframework/cglib/core/EmitUtils$8
+instanceKlass org/springframework/cglib/core/Local
+instanceKlass org/springframework/cglib/core/EmitUtils$7
+instanceKlass org/springframework/asm/Edge
+instanceKlass org/springframework/cglib/core/ClassEmitter$FieldInfo
+instanceKlass org/springframework/cglib/core/LocalVariablesSorter$State
+instanceKlass org/springframework/asm/Frame
+instanceKlass org/springframework/cglib/core/EmitUtils$ArrayDelimiters
+instanceKlass org/springframework/cglib/core/EmitUtils$ParameterTyper
+instanceKlass org/springframework/cglib/core/ProcessArrayCallback
+instanceKlass org/springframework/asm/Label
+instanceKlass org/springframework/cglib/core/EmitUtils
+instanceKlass org/springframework/cglib/core/ReflectUtils$4
+instanceKlass org/springframework/cglib/core/ReflectUtils$5
+instanceKlass org/springframework/cglib/core/ReflectUtils$3
+instanceKlass org/springframework/cglib/core/ReflectUtils$2
+instanceKlass org/springframework/cglib/core/ReflectUtils$1
+instanceKlass org/springframework/cglib/core/MethodInfo
+instanceKlass org/springframework/cglib/core/ReflectUtils
+instanceKlass org/springframework/cglib/core/ClassInfo
+instanceKlass org/springframework/asm/ByteVector
+instanceKlass org/springframework/asm/Symbol
+instanceKlass org/springframework/asm/SymbolTable
+instanceKlass org/springframework/asm/RecordComponentVisitor
+instanceKlass org/springframework/asm/ModuleVisitor
+instanceKlass org/springframework/asm/FieldVisitor
+instanceKlass org/springframework/cglib/core/AsmApi
+instanceKlass org/springframework/cglib/core/Constants
+instanceKlass org/springframework/cglib/core/internal/LoadingCache$2
+instanceKlass java/util/concurrent/FutureTask$WaitNode
+instanceKlass java/util/concurrent/FutureTask
+instanceKlass java/util/concurrent/RunnableFuture
+instanceKlass org/springframework/cglib/core/internal/LoadingCache$1
+instanceKlass org/springframework/cglib/core/internal/LoadingCache
+instanceKlass org/springframework/cglib/core/AbstractClassGenerator$ClassLoaderData$3
+instanceKlass org/springframework/cglib/core/AbstractClassGenerator$ClassLoaderData$1
+instanceKlass org/springframework/cglib/core/AbstractClassGenerator$ClassLoaderData$2
+instanceKlass org/springframework/cglib/core/internal/Function
+instanceKlass org/springframework/cglib/core/AbstractClassGenerator$ClassLoaderData
+instanceKlass org/springframework/cglib/core/internal/CustomizerRegistry
+instanceKlass org/springframework/cglib/core/DefaultNamingPolicy
+instanceKlass org/springframework/cglib/core/DefaultGeneratorStrategy
+instanceKlass org/springframework/cglib/core/KeyFactory$4
+instanceKlass org/springframework/cglib/core/KeyFactory$3
+instanceKlass org/springframework/cglib/core/KeyFactory$2
+instanceKlass org/springframework/cglib/core/KeyFactory$1
+instanceKlass org/springframework/cglib/core/Signature
+instanceKlass org/springframework/cglib/core/CollectionUtils
+instanceKlass org/springframework/cglib/core/TypeUtils
+instanceKlass org/springframework/cglib/core/HashCodeCustomizer
+instanceKlass org/springframework/cglib/core/FieldTypeCustomizer
+instanceKlass org/springframework/cglib/core/Customizer
+instanceKlass org/springframework/cglib/core/KeyFactory
+instanceKlass org/springframework/cglib/proxy/Enhancer$EnhancerKey
+instanceKlass org/springframework/cglib/core/AbstractClassGenerator$Source
+instanceKlass org/springframework/cglib/proxy/Enhancer$1
+instanceKlass org/springframework/cglib/core/ProcessSwitchCallback
+instanceKlass org/springframework/cglib/proxy/CallbackGenerator$Context
+instanceKlass org/springframework/cglib/core/Transformer
+instanceKlass org/springframework/cglib/core/ObjectSwitchCallback
+instanceKlass org/springframework/cglib/core/Predicate
+instanceKlass org/springframework/cglib/core/KeyFactoryCustomizer
+instanceKlass org/springframework/cglib/core/AbstractClassGenerator
+instanceKlass org/springframework/cglib/core/ClassGenerator
+instanceKlass org/springframework/context/annotation/ConfigurationClassEnhancer$EnhancedConfiguration
+instanceKlass org/springframework/aop/framework/autoproxy/AutoProxyUtils
+instanceKlass org/springframework/objenesis/instantiator/ObjectInstantiator
+instanceKlass org/springframework/objenesis/strategy/BaseInstantiatorStrategy
+instanceKlass org/springframework/objenesis/strategy/InstantiatorStrategy
+instanceKlass org/springframework/objenesis/SpringObjenesis
+instanceKlass org/springframework/objenesis/Objenesis
+instanceKlass org/springframework/context/annotation/ConfigurationClassEnhancer$ConditionalCallbackFilter
+instanceKlass org/springframework/cglib/proxy/NoOp$1
+instanceKlass org/springframework/cglib/proxy/NoOp
+instanceKlass org/springframework/context/annotation/ConfigurationClassEnhancer$BeanFactoryAwareMethodInterceptor

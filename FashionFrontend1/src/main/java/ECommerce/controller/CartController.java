@@ -60,7 +60,7 @@ public class CartController {
 	
 	}
 	
-	@RequestMapping("/updateCartItem/{productId}")
+	@RequestMapping("/updateCartItem/{cartItemId}")
 	public String updateCartItem(@PathVariable("cartItemId")int cartItemId, @RequestParam("quantity") int quantity, Model m, HttpSession session) {
 		CartItem cartItem = cartDAO.getCartItem(cartItemId);
 		cartItem.setQuantity(quantity);

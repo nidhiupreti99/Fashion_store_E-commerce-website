@@ -19,7 +19,7 @@
        <security:http auto-config="true" use-expressions="true">
        <security:form-login login-page="/Login" default-target-url="/" login-processing-url="/perform_login" authentication-failure-url="/Login" 
        authentication-success-forward-url="/login_success"/>
-       <security:logout logout-success-url="/Login" logout-url="/perform_Logout"/>
+       <security:logout logout-success-url="/Login" logout-url="/perform_logout"/>
        <security:csrf disabled="true"/>
        </security:http>
        

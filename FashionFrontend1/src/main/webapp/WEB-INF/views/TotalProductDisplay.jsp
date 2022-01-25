@@ -3,7 +3,7 @@
 <%@taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
 
 <br><br>
-
+<div align="center">
 <form action="<c:url value="/addToCart/${product.productId}"/>">
 <table class=" table-bordered">
 <tr>
@@ -61,3 +61,4 @@
 
 </table>
 </form>
+</div>

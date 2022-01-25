@@ -58,7 +58,7 @@
 
 </form:form>
 
-<table class="table-bordered">
+<table class="table-bordered" align="center">
 <tr>
 <td>Product Id</td>
 <td>Product Name</td>
@@ -75,8 +75,7 @@
 <td>${product.stock}</td>
 <td>${product.supplierId}</td>
 <td>
- <a href="<c:url value="/editProduct/${product.productId}"/>" class="btn btn-success">EDIT</a> 
- <a href="<c:url value="/deleteProduct/${product.productId}"/>" class="btn btn-danger">DANGER</a> 
+ <a href="<c:url value="/deleteProduct/${product.productId}"/>" class="btn btn-danger">DELETE</a> 
 </td>
 </tr>
 </c:forEach>

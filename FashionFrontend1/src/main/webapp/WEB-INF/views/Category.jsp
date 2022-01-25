@@ -30,7 +30,7 @@
 		</tr>
 	</table>
 </form>
-<table class="table-bordered">
+<table class="table-bordered" align="center">
 <tr>
 <td>Category Id</td>
 <td>Category Name</td>
@@ -42,8 +42,10 @@
 <td>${category.categoryName}</td>
 <td>${category.categoryDesc}</td>
 
-<td> <a href="<c:url value="/editCategory/${category.categoryId}"/>" class="btn btn-success">EDIT</a> </td>
-<td> <a href="<c:url value="/deleteCategory/${category.categoryId}"/>" class="btn btn-danger">DANGER</a> </td>
+<td><a href="<c:url value="/editCategory/${category.categoryId}"/>" class="btn btn-success">EDIT</a> </td>
+
+<td> <a href="<c:url value="/deleteCategory/${category.categoryId}"/>" class="btn btn-danger">DELETE</a> </td>
+
 
 
 </tr>

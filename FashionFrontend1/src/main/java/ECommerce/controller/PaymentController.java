@@ -16,6 +16,7 @@ import ECommerce.DAO.OrderDAO;
 import ECommerce.DAO.ProductDAO;
 import ECommerce.DAO.UserDAO;
 import ECommerce.model.CartItem;
+import ECommerce.model.OrderDetail;
 import ECommerce.model.UserDetail;
 
 @Controller
@@ -73,6 +74,31 @@ public class PaymentController {
 		return "Payment";
 	}
 	
+	@RequestMapping(value="/reciept", method=RequestMethod.POST)
+	public String generateReceipt(@RequestParam("rd") String rd, Model m, HttpSession session) {
+		String username=(String)session.getAttribute("username");
+		
+		OrderDetail orderDetail = new OrderDetail();
+		orderDetail.setOrderDate(new java.util.Date());
+		orderDetail.setShippingAddr(userDAO.getUser(username).getCustomerAddr());
+		orderDetail.setTrans(rd);
+		orderDetail.setUsername(username);
+		
+		
+		List<CartItem> cartItemList = cartDAO.listCartItems(username);
+		
+		m.addAttribute("cartItemList", cartItemList);
+		m.addAttribute("grandTotal", this.getGrandTotal(cartItemList));
+		
+		UserDetail userDetail = userDAO.getUser(username);
+		orderDetail.setTotalAmount(this.getGrandTotal(cartItemList));
+		
+		orderDAO.saveOrder(orderDetail);
+		orderDAO.updateCart(username);
+		
+		m.addAttribute("orderDetail", orderDetail);
+		return "Reciept";
+	}
 	
 	public int getGrandTotal(List<CartItem> cartList) {
 		int grandTotal=0, count=0;
